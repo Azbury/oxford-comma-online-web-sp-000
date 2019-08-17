@@ -7,7 +7,7 @@ def oxford_comma(array)
       string << " and #{array[counter]}"
       counter += 1
     else
-      string << "array[counter], "
+      string << "#{array[counter]}, "
       counter += 1
     end
   end
