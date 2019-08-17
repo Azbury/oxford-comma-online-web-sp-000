@@ -5,10 +5,10 @@ def oxford_comma(array)
   return "#{array[0]} and #{array[1]}" if array.size == 2
   while counter < array.size
     if counter == array.size - 1
-      string << " and #{array[counter]}"
+      string << "and #{array[counter]}"
       counter += 1
     else
-      string << "#{array[counter]},"
+      string << "#{array[counter]}, "
       counter += 1
     end
   end
