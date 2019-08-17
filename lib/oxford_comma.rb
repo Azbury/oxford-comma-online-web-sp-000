@@ -3,7 +3,7 @@ def oxford_comma(array)
   string = ""
   while counter < array.size
     if counter == array.size - 1
-      string << "and #{array[counter]}" 
+      string << "and #{array[counter]}"
     else
       string << array[counter]
       counter += 1
